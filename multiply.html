@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Multiplication</title>
+    </head>
+    <body>
+        <button onclick="mult(6,5)">Execute the function</button>
+        <br><br>
+        <button onclick="multi(7)">Multiply</button>
+        <br><br>
+
+        <script>
+            function mult(x,y){
+                document.write(x*y);
+            }
+
+            function multi(x,y){
+                if (y===undefined){
+                    y=6
+                }
+                document.write(x*y)
+            }
+        </script>
+    </body>
+</html>
